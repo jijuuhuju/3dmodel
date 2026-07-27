@@ -23,9 +23,12 @@
         shadow-intensity="1"
         environment-image="neutral"
         exposure="1.2"
-        camera-orbit="0deg 75deg 500%"
+        <!-- 💡 サイト上の表示はお気に入りの150%のままにします -->
+        camera-orbit="0deg 75deg 150%"
         ar
         ar-modes="webxr scene-viewer quick-look"
+        <!-- 💡 AR起動時の大きさを「1%（0.01倍）」に初期設定します -->
+        ar-scale="0.01"
         xr-environment>
     </model-viewer>
 
